@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Pytest / Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Large raw dataset files (downloaded via data/download_data.py)
+data/*.txt
+data/*.csv
+
+# Obsidian workspace cache (preserve custom settings if needed)
+.obsidian/workspace.json
